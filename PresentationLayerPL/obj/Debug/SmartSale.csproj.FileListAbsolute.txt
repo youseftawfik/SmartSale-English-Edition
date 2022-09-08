@@ -60,3 +60,34 @@ C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bi
 C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.exe.manifest
 C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.application
 C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.CopyComplete
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\SmartSale.exe.config
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\SmartSale.exe.manifest
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\SmartSale.application
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\SmartSale.exe
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\SmartSale.pdb
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\BusinessLayer.dll
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\BusinessLayer.pdb
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.csprojAssemblyReference.cache
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.AllProductsFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.CategoryFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.LoginFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.MainFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.MakeOrdersFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.OrderRefundFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ProductsFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.Properties.Resources.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.RequestsFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrderDetailsFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrdersFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.StartFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.StoresFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.UnitsFrm.resources
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.GenerateResource.cache
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.CoreCompileInputs.cache
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.exe.manifest
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.application
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.CopyComplete
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.exe
+C:\Users\joota\Source\Repos\SmartSale-English-Edition\PresentationLayerPL\obj\Debug\SmartSale.pdb
