@@ -46,3 +46,12 @@ C:\Users\joota\Source\Repos\SmartSale-English-Edition\BusinessLayer\obj\Debug\Bu
 C:\Users\joota\Source\Repos\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CopyComplete
 C:\Users\joota\Source\Repos\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\joota\Source\Repos\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\bin\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\bin\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csprojAssemblyReference.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CoreCompileInputs.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CopyComplete
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\BusinessLayer\obj\Debug\BusinessLayer.pdb

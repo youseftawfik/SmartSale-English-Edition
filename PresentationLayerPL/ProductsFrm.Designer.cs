@@ -65,40 +65,40 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(19, 71);
+            this.label1.Location = new System.Drawing.Point(23, 77);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 29);
+            this.label1.Size = new System.Drawing.Size(193, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "اسم المنتج : ";
+            this.label1.Text = "Product Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 114);
+            this.label2.Location = new System.Drawing.Point(23, 118);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 29);
+            this.label2.Size = new System.Drawing.Size(132, 29);
             this.label2.TabIndex = 1;
-            this.label2.Text = "النوع : ";
+            this.label2.Text = "Category :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(17, 158);
+            this.label9.Location = new System.Drawing.Point(21, 160);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 29);
+            this.label9.Size = new System.Drawing.Size(125, 29);
             this.label9.TabIndex = 8;
-            this.label9.Text = "الباركود : ";
+            this.label9.Text = "Barcode :";
             // 
             // btnSelectPhoto
             // 
             this.btnSelectPhoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSelectPhoto.Image = ((System.Drawing.Image)(resources.GetObject("btnSelectPhoto.Image")));
-            this.btnSelectPhoto.Location = new System.Drawing.Point(663, 286);
+            this.btnSelectPhoto.Location = new System.Drawing.Point(522, 150);
             this.btnSelectPhoto.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelectPhoto.Name = "btnSelectPhoto";
             this.btnSelectPhoto.Size = new System.Drawing.Size(44, 37);
@@ -110,7 +110,7 @@
             // 
             this.nudBuyPrice.BackColor = System.Drawing.Color.AliceBlue;
             this.nudBuyPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudBuyPrice.Location = new System.Drawing.Point(154, 194);
+            this.nudBuyPrice.Location = new System.Drawing.Point(183, 198);
             this.nudBuyPrice.Margin = new System.Windows.Forms.Padding(4);
             this.nudBuyPrice.Maximum = new decimal(new int[] {
             100000,
@@ -125,7 +125,7 @@
             // 
             this.nudSellPrice.BackColor = System.Drawing.Color.AliceBlue;
             this.nudSellPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudSellPrice.Location = new System.Drawing.Point(154, 236);
+            this.nudSellPrice.Location = new System.Drawing.Point(183, 238);
             this.nudSellPrice.Margin = new System.Windows.Forms.Padding(4);
             this.nudSellPrice.Maximum = new decimal(new int[] {
             100000,
@@ -141,7 +141,7 @@
             this.cmbcategory.BackColor = System.Drawing.Color.AliceBlue;
             this.cmbcategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbcategory.FormattingEnabled = true;
-            this.cmbcategory.Location = new System.Drawing.Point(154, 106);
+            this.cmbcategory.Location = new System.Drawing.Point(183, 114);
             this.cmbcategory.Name = "cmbcategory";
             this.cmbcategory.Size = new System.Drawing.Size(285, 37);
             this.cmbcategory.TabIndex = 1;
@@ -150,7 +150,7 @@
             // 
             this.nudquantity.BackColor = System.Drawing.Color.AliceBlue;
             this.nudquantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudquantity.Location = new System.Drawing.Point(154, 278);
+            this.nudquantity.Location = new System.Drawing.Point(183, 280);
             this.nudquantity.Margin = new System.Windows.Forms.Padding(4);
             this.nudquantity.Maximum = new decimal(new int[] {
             10000,
@@ -178,7 +178,7 @@
             this.Pheader.Dock = System.Windows.Forms.DockStyle.Top;
             this.Pheader.Location = new System.Drawing.Point(0, 0);
             this.Pheader.Name = "Pheader";
-            this.Pheader.Size = new System.Drawing.Size(829, 48);
+            this.Pheader.Size = new System.Drawing.Size(804, 48);
             this.Pheader.TabIndex = 52;
             // 
             // btnclose
@@ -188,7 +188,7 @@
             this.btnclose.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclose.ForeColor = System.Drawing.Color.White;
             this.btnclose.Image = ((System.Drawing.Image)(resources.GetObject("btnclose.Image")));
-            this.btnclose.Location = new System.Drawing.Point(775, 3);
+            this.btnclose.Location = new System.Drawing.Point(759, 3);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(42, 37);
             this.btnclose.TabIndex = 0;
@@ -198,7 +198,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(413, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(278, 3);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 44);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -211,23 +211,23 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
             this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label4.Location = new System.Drawing.Point(314, 11);
+            this.label4.Location = new System.Drawing.Point(336, 11);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(130, 36);
+            this.label4.Size = new System.Drawing.Size(182, 36);
             this.label4.TabIndex = 75;
-            this.label4.Text = "إضافة منتج ";
+            this.label4.Text = "Add Product";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
-            this.btnSave.Location = new System.Drawing.Point(284, 334);
+            this.btnSave.Location = new System.Drawing.Point(523, 295);
             this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(94, 44);
+            this.btnSave.Size = new System.Drawing.Size(113, 44);
             this.btnSave.TabIndex = 7;
-            this.btnSave.Text = "حفظ";
+            this.btnSave.Text = "Save";
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -236,71 +236,72 @@
             // 
             this.btncancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncancel.Image = ((System.Drawing.Image)(resources.GetObject("btncancel.Image")));
-            this.btncancel.Location = new System.Drawing.Point(434, 334);
+            this.btncancel.Location = new System.Drawing.Point(644, 295);
             this.btncancel.Margin = new System.Windows.Forms.Padding(4);
             this.btncancel.Name = "btncancel";
-            this.btncancel.Size = new System.Drawing.Size(98, 44);
+            this.btncancel.Size = new System.Drawing.Size(136, 44);
             this.btncancel.TabIndex = 8;
-            this.btncancel.Text = "إلغاء";
+            this.btncancel.Text = "Cancel";
             this.btncancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btncancel.UseVisualStyleBackColor = true;
             // 
             // PbImage
             // 
             this.PbImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PbImage.Location = new System.Drawing.Point(576, 55);
+            this.PbImage.Location = new System.Drawing.Point(574, 55);
             this.PbImage.Margin = new System.Windows.Forms.Padding(4);
             this.PbImage.Name = "PbImage";
-            this.PbImage.Size = new System.Drawing.Size(234, 223);
+            this.PbImage.Size = new System.Drawing.Size(208, 223);
             this.PbImage.TabIndex = 10;
             this.PbImage.TabStop = false;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.panel1.Location = new System.Drawing.Point(0, 404);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 353);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(829, 48);
+            this.panel1.Size = new System.Drawing.Size(804, 48);
             this.panel1.TabIndex = 53;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 280);
+            this.label3.Location = new System.Drawing.Point(21, 283);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 29);
+            this.label3.Size = new System.Drawing.Size(147, 29);
             this.label3.TabIndex = 54;
-            this.label3.Text = "الكمية :";
+            this.label3.Text = "Low Stock :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 236);
+            this.label5.Location = new System.Drawing.Point(21, 241);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 29);
+            this.label5.Size = new System.Drawing.Size(141, 29);
             this.label5.TabIndex = 55;
-            this.label5.Text = "سعر البيع : ";
+            this.label5.Text = "Sell Price :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(19, 196);
+            this.label6.Location = new System.Drawing.Point(23, 201);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 29);
+            this.label6.Size = new System.Drawing.Size(138, 29);
             this.label6.TabIndex = 56;
-            this.label6.Text = "سعر الشراء :";
+            this.label6.Text = "Buy Price :";
             // 
             // txtBarcode
             // 
             this.txtBarcode.BackColor = System.Drawing.Color.AliceBlue;
             this.txtBarcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBarcode.Location = new System.Drawing.Point(154, 153);
+            this.txtBarcode.Location = new System.Drawing.Point(183, 157);
             this.txtBarcode.Name = "txtBarcode";
             this.txtBarcode.Size = new System.Drawing.Size(285, 34);
             this.txtBarcode.TabIndex = 2;
@@ -309,7 +310,7 @@
             // 
             this.txtProductName.BackColor = System.Drawing.Color.AliceBlue;
             this.txtProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductName.Location = new System.Drawing.Point(153, 66);
+            this.txtProductName.Location = new System.Drawing.Point(183, 74);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(285, 34);
             this.txtProductName.TabIndex = 0;
@@ -320,16 +321,16 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 404);
+            this.panel2.Size = new System.Drawing.Size(10, 305);
             this.panel2.TabIndex = 54;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(817, 48);
+            this.panel3.Location = new System.Drawing.Point(792, 48);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(12, 404);
+            this.panel3.Size = new System.Drawing.Size(12, 305);
             this.panel3.TabIndex = 60;
             // 
             // ProductsFrm
@@ -337,7 +338,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(829, 452);
+            this.ClientSize = new System.Drawing.Size(804, 401);
             this.ControlBox = false;
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
