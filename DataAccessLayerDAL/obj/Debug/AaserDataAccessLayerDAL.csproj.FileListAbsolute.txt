@@ -1,0 +1,15 @@
+C:\Users\YOSEF\Desktop\Work\AaserPOS\AaserDataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.dll
+C:\Users\YOSEF\Desktop\Work\AaserPOS\AaserDataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.pdb
+C:\Users\YOSEF\Desktop\Work\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.dll
+C:\Users\YOSEF\Desktop\Work\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.pdb
+C:\Users\YOSEF\Desktop\Work\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.csprojResolveAssemblyReference.cache
+E:\AaserPOS\AaserDataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\AaserDataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.pdb
+E:\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.pdb
+E:\AaserPOS\AaserDataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.csprojResolveAssemblyReference.cache
+E:\AaserPOS\DataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\DataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.pdb
+E:\AaserPOS\DataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.csprojResolveAssemblyReference.cache
+E:\AaserPOS\DataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\DataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.pdb

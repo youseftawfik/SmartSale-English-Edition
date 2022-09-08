@@ -1,0 +1,62 @@
+D:\SmartSale\PresentationLayerPL\bin\Debug\BusinessLayer.dll
+D:\SmartSale\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.dll
+D:\SmartSale\PresentationLayerPL\bin\Debug\BusinessLayer.pdb
+D:\SmartSale\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.pdb
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.csprojAssemblyReference.cache
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.AllProductsFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.CategoryFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.LoginFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.MainFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.MakeOrdersFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.OrderRefundFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.ProductsFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.Properties.Resources.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.RequestsFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrderDetailsFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrdersFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.StartFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.StoresFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\PresentationLayerPL.UnitsFrm.resources
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.csproj.GenerateResource.cache
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.csproj.CoreCompileInputs.cache
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.csproj.CopyComplete
+D:\SmartSale\PresentationLayerPL\bin\Debug\SmartSale.exe.config
+D:\SmartSale\PresentationLayerPL\bin\Debug\SmartSale.exe.manifest
+D:\SmartSale\PresentationLayerPL\bin\Debug\SmartSale.application
+D:\SmartSale\PresentationLayerPL\bin\Debug\SmartSale.exe
+D:\SmartSale\PresentationLayerPL\bin\Debug\SmartSale.pdb
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.exe.manifest
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.application
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.exe
+D:\SmartSale\PresentationLayerPL\obj\Debug\SmartSale.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.csprojAssemblyReference.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.AllProductsFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.CategoryFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.LoginFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.MainFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.MakeOrdersFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.OrderRefundFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ProductsFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.Properties.Resources.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.RequestsFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrderDetailsFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.ShowOrdersFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.StartFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.StoresFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\PresentationLayerPL.UnitsFrm.resources
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.GenerateResource.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.CoreCompileInputs.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.exe
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\SmartSale.exe.config
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\SmartSale.exe.manifest
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\SmartSale.application
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\SmartSale.exe
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\SmartSale.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\BusinessLayer.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\BusinessLayer.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\bin\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.exe.manifest
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.application
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\PresentationLayerPL\obj\Debug\SmartSale.csproj.CopyComplete

@@ -1,0 +1,26 @@
+E:\AaserPOS\DataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\DataAccessLayerDAL\bin\Debug\AaserDataAccessLayerDAL.pdb
+E:\AaserPOS\DataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\DataAccessLayerDAL\obj\Debug\AaserDataAccessLayerDAL.pdb
+E:\SmartPOS\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.dll
+E:\SmartPOS\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.pdb
+E:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.dll
+E:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb
+E:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csprojResolveAssemblyReference.cache
+D:\SmartPOS\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.dll
+D:\SmartPOS\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.pdb
+D:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.dll
+D:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb
+D:\SmartPOS\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csprojResolveAssemblyReference.cache
+D:\SmartSale\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.dll
+D:\SmartSale\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.pdb
+D:\SmartSale\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csproj.CoreCompileInputs.cache
+D:\SmartSale\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.dll
+D:\SmartSale\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb
+D:\SmartSale\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csprojAssemblyReference.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csproj.CoreCompileInputs.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csprojAssemblyReference.cache

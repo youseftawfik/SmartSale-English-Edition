@@ -1,0 +1,39 @@
+E:\AaserPOS\BusinessLayer\bin\Debug\AaserBusinessLayer.dll
+E:\AaserPOS\BusinessLayer\bin\Debug\AaserBusinessLayer.pdb
+E:\AaserPOS\BusinessLayer\bin\Debug\AaserDataAccessLayerDAL.dll
+E:\AaserPOS\BusinessLayer\bin\Debug\AaserDataAccessLayerDAL.pdb
+E:\AaserPOS\BusinessLayer\obj\Debug\BusinessLayerBL.csprojResolveAssemblyReference.cache
+E:\AaserPOS\BusinessLayer\obj\Debug\AaserBusinessLayer.dll
+E:\AaserPOS\BusinessLayer\obj\Debug\AaserBusinessLayer.pdb
+E:\SmartPOS\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\SmartPOS\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\SmartPOS\BusinessLayer\bin\Debug\DataAccessLayerDAL.dll
+E:\SmartPOS\BusinessLayer\bin\Debug\DataAccessLayerDAL.pdb
+E:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayerBL.csprojResolveAssemblyReference.cache
+E:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\SmartPOS\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\SmartPOS\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\SmartPOS\BusinessLayer\bin\Debug\DataAccessLayerDAL.dll
+D:\SmartPOS\BusinessLayer\bin\Debug\DataAccessLayerDAL.pdb
+D:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayerBL.csprojResolveAssemblyReference.cache
+D:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\SmartPOS\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\SmartSale\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\SmartSale\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\SmartSale\BusinessLayer\bin\Debug\DataAccessLayerDAL.dll
+D:\SmartSale\BusinessLayer\bin\Debug\DataAccessLayerDAL.pdb
+D:\SmartSale\BusinessLayer\obj\Debug\BusinessLayerBL.csprojAssemblyReference.cache
+D:\SmartSale\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CoreCompileInputs.cache
+D:\SmartSale\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CopyComplete
+D:\SmartSale\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\SmartSale\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\bin\Debug\DataAccessLayerDAL.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\bin\Debug\DataAccessLayerDAL.pdb
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csprojAssemblyReference.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CoreCompileInputs.cache
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\obj\Debug\BusinessLayerBL.csproj.CopyComplete
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\joota\OneDrive\Desktop\SmartSale-English Edition\BusinessLayer\obj\Debug\BusinessLayer.pdb

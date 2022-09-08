@@ -1,0 +1,7 @@
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\bin\Debug\AaserBusinessLayer.dll
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\bin\Debug\AaserBusinessLayer.pdb
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\obj\Debug\AaserBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\obj\Debug\AaserBusinessLayer.dll
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\obj\Debug\AaserBusinessLayer.pdb
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\bin\Debug\AaserDataAcessLayer.dll
+C:\Users\YOSEF\Desktop\AaserPOS\AaserBusinessLayer\bin\Debug\AaserDataAcessLayer.pdb
