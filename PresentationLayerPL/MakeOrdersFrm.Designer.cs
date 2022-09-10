@@ -49,9 +49,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txttotalprice = new System.Windows.Forms.TextBox();
             this.txtquntity = new System.Windows.Forms.TextBox();
-            this.lbltotal = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtproductname = new System.Windows.Forms.TextBox();
+            this.lbltotal = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dgvorderdetails = new System.Windows.Forms.DataGridView();
             this.txtordertotal = new System.Windows.Forms.TextBox();
@@ -243,7 +243,7 @@
             this.gborderdetails.Size = new System.Drawing.Size(767, 384);
             this.gborderdetails.TabIndex = 1;
             this.gborderdetails.TabStop = false;
-            this.gborderdetails.Text = "Sales Details :";
+            this.gborderdetails.Text = "Receipt Details :";
             // 
             // txtsellprice
             // 
@@ -316,17 +316,6 @@
             this.txtquntity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtquntity_KeyPress);
             this.txtquntity.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtquntity_KeyUp);
             // 
-            // lbltotal
-            // 
-            this.lbltotal.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbltotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbltotal.Location = new System.Drawing.Point(587, 31);
-            this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(173, 36);
-            this.lbltotal.TabIndex = 63;
-            this.lbltotal.Text = "Total";
-            this.lbltotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.Gainsboro;
@@ -349,6 +338,17 @@
             this.txtproductname.Size = new System.Drawing.Size(183, 34);
             this.txtproductname.TabIndex = 33;
             this.txtproductname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lbltotal
+            // 
+            this.lbltotal.BackColor = System.Drawing.Color.Gainsboro;
+            this.lbltotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbltotal.Location = new System.Drawing.Point(587, 31);
+            this.lbltotal.Name = "lbltotal";
+            this.lbltotal.Size = new System.Drawing.Size(173, 36);
+            this.lbltotal.TabIndex = 63;
+            this.lbltotal.Text = "Total";
+            this.lbltotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -462,9 +462,9 @@
             this.lblOrderInvoice.Location = new System.Drawing.Point(537, 8);
             this.lblOrderInvoice.Name = "lblOrderInvoice";
             this.lblOrderInvoice.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblOrderInvoice.Size = new System.Drawing.Size(198, 36);
+            this.lblOrderInvoice.Size = new System.Drawing.Size(199, 36);
             this.lblOrderInvoice.TabIndex = 53;
-            this.lblOrderInvoice.Text = "Sales Receipt";
+            this.lblOrderInvoice.Text = "Order Receipt";
             // 
             // btndelete
             // 

@@ -205,8 +205,8 @@
             this.btnMakeOrder.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnMakeOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnMakeOrder.Image")));
             this.btnMakeOrder.Name = "btnMakeOrder";
-            this.btnMakeOrder.Size = new System.Drawing.Size(306, 36);
-            this.btnMakeOrder.Text = "Add Sales Receipt";
+            this.btnMakeOrder.Size = new System.Drawing.Size(315, 36);
+            this.btnMakeOrder.Text = "Add Order Receipt";
             this.btnMakeOrder.Click += new System.EventHandler(this.btnMakeOrder_Click);
             // 
             // btnshoworders
@@ -214,7 +214,7 @@
             this.btnshoworders.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnshoworders.Image = ((System.Drawing.Image)(resources.GetObject("btnshoworders.Image")));
             this.btnshoworders.Name = "btnshoworders";
-            this.btnshoworders.Size = new System.Drawing.Size(306, 36);
+            this.btnshoworders.Size = new System.Drawing.Size(315, 36);
             this.btnshoworders.Text = "Receipts Details";
             this.btnshoworders.Click += new System.EventHandler(this.btnshoworders_Click);
             // 
@@ -223,7 +223,7 @@
             this.btnorderrefund.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnorderrefund.Image = ((System.Drawing.Image)(resources.GetObject("btnorderrefund.Image")));
             this.btnorderrefund.Name = "btnorderrefund";
-            this.btnorderrefund.Size = new System.Drawing.Size(306, 36);
+            this.btnorderrefund.Size = new System.Drawing.Size(315, 36);
             this.btnorderrefund.Text = "Sales Refunds";
             this.btnorderrefund.Click += new System.EventHandler(this.btnorderrefund_Click);
             // 

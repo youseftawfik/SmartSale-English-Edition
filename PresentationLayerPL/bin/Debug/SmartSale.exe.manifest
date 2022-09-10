@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1671168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1670656">
       <assemblyIdentity name="SmartSale" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>51VknpcfslLm9JpSr9tYQKVIhe1WvLQCLWZ+hl8H9V4=</dsig:DigestValue>
+        <dsig:DigestValue>4k9/J54atI57cJu0VddvR//jwgWhPrYvqxZHlyqq1OY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

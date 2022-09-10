@@ -53,9 +53,9 @@
             this.txtstore = new System.Windows.Forms.TextBox();
             this.txtproductname = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.dgvorderDetails = new System.Windows.Forms.DataGridView();
             this.txttotalprice = new System.Windows.Forms.TextBox();
             this.lbltotal = new System.Windows.Forms.Label();
+            this.dgvorderDetails = new System.Windows.Forms.DataGridView();
             this.gbsalesReturn = new System.Windows.Forms.GroupBox();
             this.dgvSalesReturn = new System.Windows.Forms.DataGridView();
             this.lblOrderID = new System.Windows.Forms.Label();
@@ -98,15 +98,16 @@
             this.gborderInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gborderInformation.Location = new System.Drawing.Point(18, 53);
             this.gborderInformation.Name = "gborderInformation";
+            this.gborderInformation.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.gborderInformation.Size = new System.Drawing.Size(1164, 129);
             this.gborderInformation.TabIndex = 1;
             this.gborderInformation.TabStop = false;
-            this.gborderInformation.Text = "بيانات فاتورة المبيعات :";
+            this.gborderInformation.Text = "Order Refunds :";
             // 
             // txtcustomer
             // 
             this.txtcustomer.Enabled = false;
-            this.txtcustomer.Location = new System.Drawing.Point(773, 71);
+            this.txtcustomer.Location = new System.Drawing.Point(184, 77);
             this.txtcustomer.Name = "txtcustomer";
             this.txtcustomer.ReadOnly = true;
             this.txtcustomer.Size = new System.Drawing.Size(223, 34);
@@ -116,7 +117,7 @@
             // txtorderdate
             // 
             this.txtorderdate.Enabled = false;
-            this.txtorderdate.Location = new System.Drawing.Point(393, 31);
+            this.txtorderdate.Location = new System.Drawing.Point(571, 33);
             this.txtorderdate.Name = "txtorderdate";
             this.txtorderdate.ReadOnly = true;
             this.txtorderdate.Size = new System.Drawing.Size(223, 34);
@@ -126,25 +127,25 @@
             // lblorderdate
             // 
             this.lblorderdate.AutoSize = true;
-            this.lblorderdate.Location = new System.Drawing.Point(622, 34);
+            this.lblorderdate.Location = new System.Drawing.Point(418, 36);
             this.lblorderdate.Name = "lblorderdate";
-            this.lblorderdate.Size = new System.Drawing.Size(147, 29);
+            this.lblorderdate.Size = new System.Drawing.Size(156, 29);
             this.lblorderdate.TabIndex = 1;
-            this.lblorderdate.Text = "تاريخ الفاتورة :";
+            this.lblorderdate.Text = "Order Date :";
             // 
             // lblcustomerno
             // 
             this.lblcustomerno.AutoSize = true;
-            this.lblcustomerno.Location = new System.Drawing.Point(1002, 74);
+            this.lblcustomerno.Location = new System.Drawing.Point(6, 80);
             this.lblcustomerno.Name = "lblcustomerno";
-            this.lblcustomerno.Size = new System.Drawing.Size(115, 29);
+            this.lblcustomerno.Size = new System.Drawing.Size(171, 29);
             this.lblcustomerno.TabIndex = 7;
-            this.lblcustomerno.Text = "اسم العميل :";
+            this.lblcustomerno.Text = "Client Name :";
             // 
             // txtemployeeno
             // 
             this.txtemployeeno.Enabled = false;
-            this.txtemployeeno.Location = new System.Drawing.Point(393, 71);
+            this.txtemployeeno.Location = new System.Drawing.Point(607, 77);
             this.txtemployeeno.Name = "txtemployeeno";
             this.txtemployeeno.ReadOnly = true;
             this.txtemployeeno.Size = new System.Drawing.Size(223, 34);
@@ -154,7 +155,7 @@
             // txtorderno
             // 
             this.txtorderno.BackColor = System.Drawing.Color.AliceBlue;
-            this.txtorderno.Location = new System.Drawing.Point(773, 31);
+            this.txtorderno.Location = new System.Drawing.Point(184, 33);
             this.txtorderno.Name = "txtorderno";
             this.txtorderno.Size = new System.Drawing.Size(223, 34);
             this.txtorderno.TabIndex = 0;
@@ -166,7 +167,7 @@
             // txtRefundno
             // 
             this.txtRefundno.Enabled = false;
-            this.txtRefundno.Location = new System.Drawing.Point(30, 31);
+            this.txtRefundno.Location = new System.Drawing.Point(941, 33);
             this.txtRefundno.Name = "txtRefundno";
             this.txtRefundno.ReadOnly = true;
             this.txtRefundno.Size = new System.Drawing.Size(223, 34);
@@ -176,29 +177,29 @@
             // lblRefundno
             // 
             this.lblRefundno.AutoSize = true;
-            this.lblRefundno.Location = new System.Drawing.Point(259, 34);
+            this.lblRefundno.Location = new System.Drawing.Point(800, 36);
             this.lblRefundno.Name = "lblRefundno";
-            this.lblRefundno.Size = new System.Drawing.Size(131, 29);
+            this.lblRefundno.Size = new System.Drawing.Size(164, 29);
             this.lblRefundno.TabIndex = 2;
-            this.lblRefundno.Text = "رقم المرتجع :";
+            this.lblRefundno.Text = "Refunds No :";
             // 
             // lblemployeeno
             // 
             this.lblemployeeno.AutoSize = true;
-            this.lblemployeeno.Location = new System.Drawing.Point(622, 74);
+            this.lblemployeeno.Location = new System.Drawing.Point(418, 80);
             this.lblemployeeno.Name = "lblemployeeno";
-            this.lblemployeeno.Size = new System.Drawing.Size(131, 29);
+            this.lblemployeeno.Size = new System.Drawing.Size(220, 29);
             this.lblemployeeno.TabIndex = 6;
-            this.lblemployeeno.Text = "اسم الموظف :";
+            this.lblemployeeno.Text = "Employee Name :";
             // 
             // lblorderno
             // 
             this.lblorderno.AutoSize = true;
-            this.lblorderno.Location = new System.Drawing.Point(1002, 34);
+            this.lblorderno.Location = new System.Drawing.Point(6, 36);
             this.lblorderno.Name = "lblorderno";
-            this.lblorderno.Size = new System.Drawing.Size(194, 29);
+            this.lblorderno.Size = new System.Drawing.Size(226, 29);
             this.lblorderno.TabIndex = 0;
-            this.lblorderno.Text = "رقم فاتورة المبيعات :";
+            this.lblorderno.Text = "Order Receipt No:";
             // 
             // gborderdetails
             // 
@@ -218,15 +219,16 @@
             this.gborderdetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gborderdetails.Location = new System.Drawing.Point(18, 188);
             this.gborderdetails.Name = "gborderdetails";
+            this.gborderdetails.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.gborderdetails.Size = new System.Drawing.Size(1163, 210);
             this.gborderdetails.TabIndex = 55;
             this.gborderdetails.TabStop = false;
-            this.gborderdetails.Text = "تفاصيل فاتورة المبيعات :";
+            this.gborderdetails.Text = "Order Receipt Details :";
             // 
             // txtsellprice
             // 
             this.txtsellprice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtsellprice.Location = new System.Drawing.Point(203, 65);
+            this.txtsellprice.Location = new System.Drawing.Point(782, 65);
             this.txtsellprice.Name = "txtsellprice";
             this.txtsellprice.ReadOnly = true;
             this.txtsellprice.Size = new System.Drawing.Size(192, 34);
@@ -237,28 +239,28 @@
             // 
             this.label6.BackColor = System.Drawing.Color.Gainsboro;
             this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Location = new System.Drawing.Point(203, 30);
+            this.label6.Location = new System.Drawing.Point(782, 30);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(192, 36);
             this.label6.TabIndex = 69;
-            this.label6.Text = "سعر البيع";
+            this.label6.Text = "Selling Price";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.Gainsboro;
             this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(394, 30);
+            this.label7.Location = new System.Drawing.Point(593, 30);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(190, 36);
             this.label7.TabIndex = 68;
-            this.label7.Text = "الكمية المباعة";
+            this.label7.Text = "Order Amount";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtquntity
             // 
             this.txtquntity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtquntity.Location = new System.Drawing.Point(394, 65);
+            this.txtquntity.Location = new System.Drawing.Point(593, 65);
             this.txtquntity.Name = "txtquntity";
             this.txtquntity.ReadOnly = true;
             this.txtquntity.Size = new System.Drawing.Size(190, 34);
@@ -269,7 +271,7 @@
             // 
             this.txtQuantityRefund.BackColor = System.Drawing.Color.AliceBlue;
             this.txtQuantityRefund.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtQuantityRefund.Location = new System.Drawing.Point(583, 65);
+            this.txtQuantityRefund.Location = new System.Drawing.Point(409, 65);
             this.txtQuantityRefund.Name = "txtQuantityRefund";
             this.txtQuantityRefund.Size = new System.Drawing.Size(185, 34);
             this.txtQuantityRefund.TabIndex = 65;
@@ -280,28 +282,28 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(583, 30);
+            this.label1.Location = new System.Drawing.Point(409, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 36);
             this.label1.TabIndex = 66;
-            this.label1.Text = "الكمية المرتجعة";
+            this.label1.Text = "Refunded Amount";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Gainsboro;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Location = new System.Drawing.Point(767, 30);
+            this.label2.Location = new System.Drawing.Point(229, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(181, 36);
             this.label2.TabIndex = 64;
-            this.label2.Text = "المخزن";
+            this.label2.Text = "Stock";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtstore
             // 
             this.txtstore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtstore.Location = new System.Drawing.Point(767, 65);
+            this.txtstore.Location = new System.Drawing.Point(229, 65);
             this.txtstore.Name = "txtstore";
             this.txtstore.ReadOnly = true;
             this.txtstore.Size = new System.Drawing.Size(181, 34);
@@ -311,7 +313,7 @@
             // txtproductname
             // 
             this.txtproductname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtproductname.Location = new System.Drawing.Point(947, 65);
+            this.txtproductname.Location = new System.Drawing.Point(59, 65);
             this.txtproductname.Name = "txtproductname";
             this.txtproductname.ReadOnly = true;
             this.txtproductname.Size = new System.Drawing.Size(171, 34);
@@ -322,12 +324,33 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Gainsboro;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(947, 30);
+            this.label4.Location = new System.Drawing.Point(59, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(171, 36);
             this.label4.TabIndex = 61;
-            this.label4.Text = "اسم المنتج";
+            this.label4.Text = "Product Name";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txttotalprice
+            // 
+            this.txttotalprice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txttotalprice.Location = new System.Drawing.Point(973, 65);
+            this.txttotalprice.Name = "txttotalprice";
+            this.txttotalprice.ReadOnly = true;
+            this.txttotalprice.Size = new System.Drawing.Size(190, 34);
+            this.txttotalprice.TabIndex = 28;
+            this.txttotalprice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // lbltotal
+            // 
+            this.lbltotal.BackColor = System.Drawing.Color.Gainsboro;
+            this.lbltotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbltotal.Location = new System.Drawing.Point(973, 30);
+            this.lbltotal.Name = "lbltotal";
+            this.lbltotal.Size = new System.Drawing.Size(190, 36);
+            this.lbltotal.TabIndex = 27;
+            this.lbltotal.Text = "Total";
+            this.lbltotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // dgvorderDetails
             // 
@@ -349,7 +372,7 @@
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvorderDetails.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvorderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvorderDetails.Location = new System.Drawing.Point(12, 103);
+            this.dgvorderDetails.Location = new System.Drawing.Point(11, 108);
             this.dgvorderDetails.Name = "dgvorderDetails";
             this.dgvorderDetails.ReadOnly = true;
             this.dgvorderDetails.RowHeadersWidth = 51;
@@ -358,37 +381,17 @@
             this.dgvorderDetails.TabIndex = 0;
             this.dgvorderDetails.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvorderdetails_CellContentClick);
             // 
-            // txttotalprice
-            // 
-            this.txttotalprice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txttotalprice.Location = new System.Drawing.Point(14, 65);
-            this.txttotalprice.Name = "txttotalprice";
-            this.txttotalprice.ReadOnly = true;
-            this.txttotalprice.Size = new System.Drawing.Size(190, 34);
-            this.txttotalprice.TabIndex = 28;
-            this.txttotalprice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // lbltotal
-            // 
-            this.lbltotal.BackColor = System.Drawing.Color.Gainsboro;
-            this.lbltotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbltotal.Location = new System.Drawing.Point(14, 30);
-            this.lbltotal.Name = "lbltotal";
-            this.lbltotal.Size = new System.Drawing.Size(190, 36);
-            this.lbltotal.TabIndex = 27;
-            this.lbltotal.Text = "الإجمالى";
-            this.lbltotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // gbsalesReturn
             // 
             this.gbsalesReturn.Controls.Add(this.dgvSalesReturn);
             this.gbsalesReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbsalesReturn.Location = new System.Drawing.Point(18, 404);
+            this.gbsalesReturn.Location = new System.Drawing.Point(20, 405);
             this.gbsalesReturn.Name = "gbsalesReturn";
+            this.gbsalesReturn.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.gbsalesReturn.Size = new System.Drawing.Size(1164, 169);
             this.gbsalesReturn.TabIndex = 56;
             this.gbsalesReturn.TabStop = false;
-            this.gbsalesReturn.Text = "تفاصيل المرتجع من المرتجع :";
+            this.gbsalesReturn.Text = "Refunds Receipt Details :";
             // 
             // dgvSalesReturn
             // 
@@ -419,7 +422,7 @@
             // lblOrderID
             // 
             this.lblOrderID.AutoSize = true;
-            this.lblOrderID.Location = new System.Drawing.Point(29, 612);
+            this.lblOrderID.Location = new System.Drawing.Point(18, 637);
             this.lblOrderID.Name = "lblOrderID";
             this.lblOrderID.Size = new System.Drawing.Size(46, 18);
             this.lblOrderID.TabIndex = 57;
@@ -429,7 +432,7 @@
             // lblStoreID
             // 
             this.lblStoreID.AutoSize = true;
-            this.lblStoreID.Location = new System.Drawing.Point(29, 576);
+            this.lblStoreID.Location = new System.Drawing.Point(18, 601);
             this.lblStoreID.Name = "lblStoreID";
             this.lblStoreID.Size = new System.Drawing.Size(46, 18);
             this.lblStoreID.TabIndex = 58;
@@ -439,7 +442,7 @@
             // lblProductID
             // 
             this.lblProductID.AutoSize = true;
-            this.lblProductID.Location = new System.Drawing.Point(29, 594);
+            this.lblProductID.Location = new System.Drawing.Point(18, 619);
             this.lblProductID.Name = "lblProductID";
             this.lblProductID.Size = new System.Drawing.Size(46, 18);
             this.lblProductID.TabIndex = 59;
@@ -452,9 +455,10 @@
             this.btnCancel.Image = ((System.Drawing.Image)(resources.GetObject("btnCancel.Image")));
             this.btnCancel.Location = new System.Drawing.Point(589, 580);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(90, 40);
+            this.btnCancel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnCancel.Size = new System.Drawing.Size(129, 40);
             this.btnCancel.TabIndex = 1;
-            this.btnCancel.Text = "إلغاء";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -465,12 +469,12 @@
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSave.Location = new System.Drawing.Point(685, 579);
+            this.btnSave.Location = new System.Drawing.Point(474, 580);
             this.btnSave.Name = "btnSave";
-            this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.btnSave.Size = new System.Drawing.Size(103, 40);
+            this.btnSave.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnSave.Size = new System.Drawing.Size(109, 40);
             this.btnSave.TabIndex = 0;
-            this.btnSave.Text = "حفظ";
+            this.btnSave.Text = "Save";
             this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
@@ -479,11 +483,12 @@
             // 
             this.btnPrint.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrint.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.Image")));
-            this.btnPrint.Location = new System.Drawing.Point(480, 580);
+            this.btnPrint.Location = new System.Drawing.Point(724, 580);
             this.btnPrint.Name = "btnPrint";
+            this.btnPrint.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnPrint.Size = new System.Drawing.Size(103, 40);
             this.btnPrint.TabIndex = 2;
-            this.btnPrint.Text = "طباعة";
+            this.btnPrint.Text = "Print";
             this.btnPrint.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPrint.UseVisualStyleBackColor = true;
             // 
@@ -544,7 +549,7 @@
             this.btnclose.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnclose.ForeColor = System.Drawing.Color.White;
             this.btnclose.Image = ((System.Drawing.Image)(resources.GetObject("btnclose.Image")));
-            this.btnclose.Location = new System.Drawing.Point(1144, 1);
+            this.btnclose.Location = new System.Drawing.Point(1142, 1);
             this.btnclose.Name = "btnclose";
             this.btnclose.Size = new System.Drawing.Size(44, 39);
             this.btnclose.TabIndex = 52;
@@ -555,7 +560,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(656, 0);
+            this.pictureBox5.Location = new System.Drawing.Point(406, 0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(52, 44);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -568,11 +573,11 @@
             this.lblOrderInvoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOrderInvoice.ForeColor = System.Drawing.Color.AliceBlue;
             this.lblOrderInvoice.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblOrderInvoice.Location = new System.Drawing.Point(495, 8);
+            this.lblOrderInvoice.Location = new System.Drawing.Point(464, 8);
             this.lblOrderInvoice.Name = "lblOrderInvoice";
-            this.lblOrderInvoice.Size = new System.Drawing.Size(219, 36);
+            this.lblOrderInvoice.Size = new System.Drawing.Size(319, 36);
             this.lblOrderInvoice.TabIndex = 53;
-            this.lblOrderInvoice.Text = "فاتورة مرتجع مبيعات";
+            this.lblOrderInvoice.Text = "Order Refunds Receipt";
             // 
             // OrderRefundFrm
             // 
@@ -580,6 +585,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1198, 668);
+            this.Controls.Add(this.lblProductID);
+            this.Controls.Add(this.lblStoreID);
+            this.Controls.Add(this.lblOrderID);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.PHeader);
             this.Controls.Add(this.panel3);
@@ -587,9 +595,6 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnPrint);
-            this.Controls.Add(this.lblProductID);
-            this.Controls.Add(this.lblStoreID);
-            this.Controls.Add(this.lblOrderID);
             this.Controls.Add(this.gbsalesReturn);
             this.Controls.Add(this.gborderdetails);
             this.Controls.Add(this.gborderInformation);

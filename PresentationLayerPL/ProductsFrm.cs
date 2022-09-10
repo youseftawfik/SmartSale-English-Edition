@@ -108,12 +108,6 @@ namespace PresentationLayerPL
                 }
                 else
                 {
-                    byte[] pbImage;
-                    FileStream FS = new FileStream(path, FileMode.Open, FileAccess.Read);
-                    BinaryReader BR = new BinaryReader(FS);
-                    FileInfo FI = new FileInfo(path);
-                    pbImage = BR.ReadBytes((int)FI.Length);
-
                     int P = NewProduct.Insert(new ProductsBL
                     {
                         ProductName = txtProductName.Text,
@@ -122,8 +116,8 @@ namespace PresentationLayerPL
                         SellPrice = (decimal)nudSellPrice.Value,
                         Barcode = txtBarcode.Text,
                         Alert = (int)nudquantity.Value,
-                        Image = pbImage
-                    });
+                        Image = Images()
+                    }) ;
                     if (P > 0)
                     {
                         MessageBox.Show("Save Sucessful", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);

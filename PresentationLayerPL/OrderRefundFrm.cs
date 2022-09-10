@@ -73,7 +73,7 @@ namespace PresentationLayerPL
             {
                 if (txtorderno.Text == string.Empty && e.KeyCode == Keys.Enter)
                 {
-                    MessageBox.Show("من فضلك ادخل رقم الفاتورة !!", "تنبية", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Please Enter Sales Receipt Number !!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
@@ -104,16 +104,16 @@ namespace PresentationLayerPL
                         //Method to Add Button To DataGridView
                         DataGridViewButtonColumn Btn = new DataGridViewButtonColumn();
                         dgvorderDetails.Columns.Add(Btn);
-                        Btn.HeaderText = "المرتجع";
+                        Btn.HeaderText = "Refunds";
                         Btn.Name = "Refund";
-                        Btn.Text = "استرجاع";
+                        Btn.Text = "Refund";
                         Btn.UseColumnTextForButtonValue = true;
                     }
                 }
             }
             catch (Exception)
             {
-                MessageBox.Show("رقم الفاتورة غير موجود !!", "تنبية", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Receipt Number isn't Exist !!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         private void txtorderno_TextChanged(object sender, EventArgs e)
@@ -346,6 +346,7 @@ namespace PresentationLayerPL
                 e.Handled = true;
             }
         }
+
     }
 }
 
