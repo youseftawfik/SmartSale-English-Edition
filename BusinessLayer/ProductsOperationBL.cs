@@ -59,7 +59,7 @@ namespace BusinessLayer
                 ProductName = dt.Rows[0]["ProductName"].ToString(),
                 BuyPrice = (decimal)dt.Rows[0]["BuyPrice"],
                 SellPrice = (decimal)dt.Rows[0]["SellPrice"],
-                Avaliable = (decimal)dt.Rows[0]["Avaliable"],
+                //Avaliable = (decimal)dt.Rows[0]["Avaliable"],
                 Barcode = dt.Rows[0]["Barcode"].ToString(),
                 Image = (byte[])dt.Rows[0]["Image"],
                 Alert = (int)dt.Rows[0]["Alert"],

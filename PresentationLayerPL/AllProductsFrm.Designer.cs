@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AllProductsFrm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnclose = new System.Windows.Forms.Button();
             this.Pheader = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -57,6 +57,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblProductCount = new System.Windows.Forms.Label();
             this.Pheader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbImage)).BeginInit();
@@ -184,14 +185,14 @@
             this.dgvallproducts.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvallproducts.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.dgvallproducts.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvallproducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvallproducts.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvallproducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvallproducts.Location = new System.Drawing.Point(5, 32);
             this.dgvallproducts.Margin = new System.Windows.Forms.Padding(2);
@@ -239,7 +240,7 @@
             // 
             this.txtProductName.BackColor = System.Drawing.Color.AliceBlue;
             this.txtProductName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProductName.Location = new System.Drawing.Point(199, 40);
+            this.txtProductName.Location = new System.Drawing.Point(185, 40);
             this.txtProductName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtProductName.Name = "txtProductName";
             this.txtProductName.Size = new System.Drawing.Size(223, 34);
@@ -249,7 +250,7 @@
             // 
             this.nudBuyPrice.BackColor = System.Drawing.Color.AliceBlue;
             this.nudBuyPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudBuyPrice.Location = new System.Drawing.Point(638, 40);
+            this.nudBuyPrice.Location = new System.Drawing.Point(664, 40);
             this.nudBuyPrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudBuyPrice.Maximum = new decimal(new int[] {
             100000,
@@ -264,7 +265,7 @@
             // 
             this.nudSellPrice.BackColor = System.Drawing.Color.AliceBlue;
             this.nudSellPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudSellPrice.Location = new System.Drawing.Point(638, 78);
+            this.nudSellPrice.Location = new System.Drawing.Point(664, 78);
             this.nudSellPrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudSellPrice.Maximum = new decimal(new int[] {
             100000,
@@ -279,7 +280,7 @@
             // 
             this.txtBarcode.BackColor = System.Drawing.Color.AliceBlue;
             this.txtBarcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBarcode.Location = new System.Drawing.Point(199, 119);
+            this.txtBarcode.Location = new System.Drawing.Point(185, 119);
             this.txtBarcode.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBarcode.Name = "txtBarcode";
             this.txtBarcode.Size = new System.Drawing.Size(223, 34);
@@ -290,7 +291,7 @@
             this.cmbcategory.BackColor = System.Drawing.Color.AliceBlue;
             this.cmbcategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbcategory.FormattingEnabled = true;
-            this.cmbcategory.Location = new System.Drawing.Point(199, 78);
+            this.cmbcategory.Location = new System.Drawing.Point(185, 78);
             this.cmbcategory.Margin = new System.Windows.Forms.Padding(2);
             this.cmbcategory.Name = "cmbcategory";
             this.cmbcategory.Size = new System.Drawing.Size(223, 37);
@@ -299,9 +300,8 @@
             // nudquantity
             // 
             this.nudquantity.BackColor = System.Drawing.Color.AliceBlue;
-            this.nudquantity.Enabled = false;
             this.nudquantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudquantity.Location = new System.Drawing.Point(638, 119);
+            this.nudquantity.Location = new System.Drawing.Point(664, 119);
             this.nudquantity.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudquantity.Maximum = new decimal(new int[] {
             10000,
@@ -316,17 +316,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(458, 119);
+            this.label3.Location = new System.Drawing.Point(506, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 29);
+            this.label3.Size = new System.Drawing.Size(147, 29);
             this.label3.TabIndex = 68;
-            this.label3.Text = "Quantity :";
+            this.label3.Text = "Low Stock :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(458, 78);
+            this.label5.Location = new System.Drawing.Point(479, 78);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(177, 29);
             this.label5.TabIndex = 69;
@@ -336,7 +336,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(458, 40);
+            this.label6.Location = new System.Drawing.Point(482, 40);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(174, 29);
             this.label6.TabIndex = 70;
@@ -345,6 +345,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel2.Controls.Add(this.lblProductCount);
             this.panel2.Controls.Add(this.lblID);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 553);
@@ -421,6 +422,17 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Products List :";
             // 
+            // lblProductCount
+            // 
+            this.lblProductCount.AutoSize = true;
+            this.lblProductCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProductCount.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblProductCount.Location = new System.Drawing.Point(16, 8);
+            this.lblProductCount.Name = "lblProductCount";
+            this.lblProductCount.Size = new System.Drawing.Size(66, 29);
+            this.lblProductCount.TabIndex = 73;
+            this.lblProductCount.Text = "lable";
+            // 
             // AllProductsFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -489,5 +501,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblProductCount;
     }
 }

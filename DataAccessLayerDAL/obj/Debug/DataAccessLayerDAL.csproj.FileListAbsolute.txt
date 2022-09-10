@@ -32,7 +32,6 @@ C:\Users\joota\Source\Repos\SmartSale-English-Edition\DataAccessLayerDAL\obj\Deb
 C:\Users\joota\Source\Repos\SmartSale-English-Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb
 C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.dll
 C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\bin\Debug\DataAccessLayerDAL.pdb
-C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csprojAssemblyReference.cache
 C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.csproj.CoreCompileInputs.cache
 C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.dll
 C:\Users\joota\OneDrive\Desktop\SmartSale-English-Edition\DataAccessLayerDAL\obj\Debug\DataAccessLayerDAL.pdb

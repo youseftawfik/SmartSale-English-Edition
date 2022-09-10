@@ -35,8 +35,8 @@ namespace PresentationLayerPL
             cmbcategory.SelectedValue = SelectData.CategoryID;
             nudBuyPrice.Value = (decimal)SelectData.BuyPrice;
             nudSellPrice.Value = (decimal)SelectData.SellPrice;
+            nudquantity.Value = (decimal)SelectData.Alert;
 
-            nudquantity.Value = (decimal)SelectData.Avaliable;
             if (SelectData.Image != null)
             {
                 byte[] PI = (byte[])SelectData.Image;
@@ -45,7 +45,7 @@ namespace PresentationLayerPL
         }
         private void ProductCount()
         {
-            //lblProductcount.Text = "Number of Products " + NewProduct.ProductsCount().ToString();
+            lblProductCount.Text = " Number of Products " + NewProduct.ProductsCount().ToString();
         }
 
         public byte[] Images()
@@ -79,11 +79,11 @@ namespace PresentationLayerPL
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 30, 30));
+            ProductCount();
         }
 
         private void AllProductsFrm_Load(object sender, EventArgs e)
         {
-            //lblProductcount.Text = "عدد المنتجات : " + NewProduct.ProductsCount().ToString();
             try
             {
                 dgvallproducts.DataSource = NewProduct.ReadAll();
@@ -93,7 +93,7 @@ namespace PresentationLayerPL
                 //dgvallproducts.ColumnHeadersDefaultCellStyle.ForeColor = Color.AliceBlue;
                 dgvallproducts.RowsDefaultCellStyle.BackColor = Color.DeepSkyBlue;
                 dgvallproducts.AlternatingRowsDefaultCellStyle.BackColor = Color.LightSkyBlue;
-                ((DataGridViewImageColumn)dgvallproducts.Columns[8]).ImageLayout = DataGridViewImageCellLayout.Stretch;
+                ((DataGridViewImageColumn)dgvallproducts.Columns[7]).ImageLayout = DataGridViewImageCellLayout.Stretch;
             }
             catch (Exception ex)
             {
@@ -132,23 +132,26 @@ namespace PresentationLayerPL
                     //{
                     //   // MessageBox.Show("Information Modified Successfully", "Confirm", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     //}
-                    int UP = NewProduct.Update(new ProductsBL
+                    if (MessageBox.Show("Do you want to modify this product ? ", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
-                        ProductID = int.Parse(lblID.Text),
-                        ProductName = txtProductName.Text,
-                        CategoryID = (int)cmbcategory.SelectedValue,
-                        BuyPrice = (decimal)nudBuyPrice.Value,
-                        SellPrice = (decimal)nudSellPrice.Value,
-                        Barcode = txtBarcode.Text,
-                        Alert = (int)nudquantity.Value,
-                        Image = path == null || string.IsNullOrEmpty(OFD.FileName) ? NewProduct.ReadByID(int.Parse(lblID.Text)).Image : Images()
-                    });
+                        int UP = NewProduct.Update(new ProductsBL
+                        {
+                            ProductID = int.Parse(lblID.Text),
+                            ProductName = txtProductName.Text,
+                            CategoryID = (int)cmbcategory.SelectedValue,
+                            BuyPrice = (decimal)nudBuyPrice.Value,
+                            SellPrice = (decimal)nudSellPrice.Value,
+                            Barcode = txtBarcode.Text,
+                            Alert = (int)nudquantity.Value,
+                            Image = path == null || string.IsNullOrEmpty(OFD.FileName) ? NewProduct.ReadByID(int.Parse(lblID.Text)).Image : Images()
+                        });
 
-                    if (UP > 0)
-                    {
-                        MessageBox.Show("Information Modified Successfully", "Confirm", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        ClearControl();
-                        dgvallproducts.DataSource = NewProduct.ReadAll();
+                        if (UP > 0)
+                        {
+                            MessageBox.Show("Information Modified Successfully", "Confirm", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            ClearControl();
+                            dgvallproducts.DataSource = NewProduct.ReadAll();
+                        }
                     }
                 }
                 else

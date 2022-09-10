@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusinessLayer.dll" size="27648">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusinessLayer.dll" size="27136">
       <assemblyIdentity name="BusinessLayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MYcibymfw3WWN9xWo920qH8+ke/ArbZXENT2n/VGsAY=</dsig:DigestValue>
+        <dsig:DigestValue>MaM34yZkq8+JTSSawSe98SywLjbS9DzkN1A3bygzNoA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zEnPegIF4zIi18w2V2HFNEwxrVcWcOkTlZ19Ejuv/2U=</dsig:DigestValue>
+        <dsig:DigestValue>dZGMhQgwL3SRpqZb+P0tjgb9qdbE4VlZtJJzugiLkDc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1648128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1671168">
       <assemblyIdentity name="SmartSale" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A5A6qxl6OHT2Pw+dlMLnpnj6FVwJ2XrQll3Hh2vNtjM=</dsig:DigestValue>
+        <dsig:DigestValue>51VknpcfslLm9JpSr9tYQKVIhe1WvLQCLWZ+hl8H9V4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

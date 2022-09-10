@@ -248,10 +248,13 @@
             // PbImage
             // 
             this.PbImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PbImage.Image = ((System.Drawing.Image)(resources.GetObject("PbImage.Image")));
+            this.PbImage.InitialImage = ((System.Drawing.Image)(resources.GetObject("PbImage.InitialImage")));
             this.PbImage.Location = new System.Drawing.Point(574, 55);
             this.PbImage.Margin = new System.Windows.Forms.Padding(4);
             this.PbImage.Name = "PbImage";
             this.PbImage.Size = new System.Drawing.Size(208, 223);
+            this.PbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbImage.TabIndex = 10;
             this.PbImage.TabStop = false;
             // 
