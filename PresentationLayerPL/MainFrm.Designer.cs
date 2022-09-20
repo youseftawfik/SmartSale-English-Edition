@@ -41,9 +41,11 @@
             this.btnaddproduct = new System.Windows.Forms.ToolStripMenuItem();
             this.btnallproducts = new System.Windows.Forms.ToolStripMenuItem();
             this.Order = new System.Windows.Forms.ToolStripMenuItem();
+            this.MakeOrder = new System.Windows.Forms.ToolStripMenuItem();
             this.btnMakeOrder = new System.Windows.Forms.ToolStripMenuItem();
             this.btnshoworders = new System.Windows.Forms.ToolStripMenuItem();
             this.btnorderrefund = new System.Windows.Forms.ToolStripMenuItem();
+            this.refundsReceiptDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.المشترياتToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnrequest = new System.Windows.Forms.ToolStripMenuItem();
             this.btnshowrequest = new System.Windows.Forms.ToolStripMenuItem();
@@ -189,8 +191,7 @@
             // Order
             // 
             this.Order.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.btnMakeOrder,
-            this.btnshoworders,
+            this.MakeOrder,
             this.btnorderrefund});
             this.Order.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Order.ForeColor = System.Drawing.SystemColors.WindowFrame;
@@ -200,13 +201,24 @@
             this.Order.Text = "Sales";
             this.Order.Click += new System.EventHandler(this.Order_Click);
             // 
+            // MakeOrder
+            // 
+            this.MakeOrder.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnMakeOrder,
+            this.btnshoworders});
+            this.MakeOrder.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.MakeOrder.Image = ((System.Drawing.Image)(resources.GetObject("MakeOrder.Image")));
+            this.MakeOrder.Name = "MakeOrder";
+            this.MakeOrder.Size = new System.Drawing.Size(261, 36);
+            this.MakeOrder.Text = "Order Receipt";
+            // 
             // btnMakeOrder
             // 
             this.btnMakeOrder.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnMakeOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnMakeOrder.Image")));
             this.btnMakeOrder.Name = "btnMakeOrder";
-            this.btnMakeOrder.Size = new System.Drawing.Size(315, 36);
-            this.btnMakeOrder.Text = "Add Order Receipt";
+            this.btnMakeOrder.Size = new System.Drawing.Size(326, 36);
+            this.btnMakeOrder.Text = "Add Order Receipts";
             this.btnMakeOrder.Click += new System.EventHandler(this.btnMakeOrder_Click);
             // 
             // btnshoworders
@@ -214,18 +226,28 @@
             this.btnshoworders.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnshoworders.Image = ((System.Drawing.Image)(resources.GetObject("btnshoworders.Image")));
             this.btnshoworders.Name = "btnshoworders";
-            this.btnshoworders.Size = new System.Drawing.Size(315, 36);
+            this.btnshoworders.Size = new System.Drawing.Size(326, 36);
             this.btnshoworders.Text = "Receipts Details";
             this.btnshoworders.Click += new System.EventHandler(this.btnshoworders_Click);
             // 
             // btnorderrefund
             // 
+            this.btnorderrefund.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.refundsReceiptDetailsToolStripMenuItem});
             this.btnorderrefund.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.btnorderrefund.Image = ((System.Drawing.Image)(resources.GetObject("btnorderrefund.Image")));
             this.btnorderrefund.Name = "btnorderrefund";
-            this.btnorderrefund.Size = new System.Drawing.Size(315, 36);
+            this.btnorderrefund.Size = new System.Drawing.Size(261, 36);
             this.btnorderrefund.Text = "Sales Refunds";
             this.btnorderrefund.Click += new System.EventHandler(this.btnorderrefund_Click);
+            // 
+            // refundsReceiptDetailsToolStripMenuItem
+            // 
+            this.refundsReceiptDetailsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.refundsReceiptDetailsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("refundsReceiptDetailsToolStripMenuItem.Image")));
+            this.refundsReceiptDetailsToolStripMenuItem.Name = "refundsReceiptDetailsToolStripMenuItem";
+            this.refundsReceiptDetailsToolStripMenuItem.Size = new System.Drawing.Size(373, 36);
+            this.refundsReceiptDetailsToolStripMenuItem.Text = "Refunds Receipt Details";
             // 
             // المشترياتToolStripMenuItem
             // 
@@ -330,8 +352,7 @@
         private System.Windows.Forms.ToolStripMenuItem Order;
         private System.Windows.Forms.ToolStripMenuItem المشترياتToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem المخرونToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem btnMakeOrder;
-        private System.Windows.Forms.ToolStripMenuItem btnshoworders;
+        private System.Windows.Forms.ToolStripMenuItem MakeOrder;
         private System.Windows.Forms.ToolStripMenuItem btnrequest;
         private System.Windows.Forms.ToolStripMenuItem btnshowrequest;
         private System.Windows.Forms.ToolStripMenuItem btnaddproduct;
@@ -340,5 +361,8 @@
         private System.Windows.Forms.ToolStripMenuItem btnrequestrefund;
         private System.Windows.Forms.Label lblInfo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem refundsReceiptDetailsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnshoworders;
+        private System.Windows.Forms.ToolStripMenuItem btnMakeOrder;
     }
 }

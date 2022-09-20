@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MaM34yZkq8+JTSSawSe98SywLjbS9DzkN1A3bygzNoA=</dsig:DigestValue>
+        <dsig:DigestValue>jcRNHh05qjjo4VEZZeU37ML2gBUJ4uz7bJPO+nizGU8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dZGMhQgwL3SRpqZb+P0tjgb9qdbE4VlZtJJzugiLkDc=</dsig:DigestValue>
+        <dsig:DigestValue>dWZ3T5JGaa2GTnR2KEA4khT6/6nTgtafYVsgMv5w5l0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1670656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SmartSale.exe" size="1672704">
       <assemblyIdentity name="SmartSale" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4k9/J54atI57cJu0VddvR//jwgWhPrYvqxZHlyqq1OY=</dsig:DigestValue>
+        <dsig:DigestValue>U/4j2m1CwtN16OECrtmYwS+7CxPF+rAHfY8VyGv7FQ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

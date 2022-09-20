@@ -60,16 +60,17 @@ namespace PresentationLayerPL
         {
             lblInfo.Text = " All Rights are Rserved to Eng:Youssef Tawfek " + "\u00a9" + " " + DateTime.Now.Year;
         }
-        private void btnMakeOrder_Click(object sender, EventArgs e)
-        {
-            MakeOrdersFrm MF = new MakeOrdersFrm();
-            MF.Show();
-        }
 
         private void btnaddproduct_Click(object sender, EventArgs e)
         {
             ProductsFrm PF = new ProductsFrm();
             PF.Show();
+        }
+
+        private void btnMakeOrder_Click(object sender, EventArgs e)
+        {
+            MakeOrdersFrm MF = new MakeOrdersFrm();
+            MF.Show();
         }
 
         private void btnshoworders_Click(object sender, EventArgs e)
@@ -99,5 +100,7 @@ namespace PresentationLayerPL
         {
 
         }
+
+
     }
 }

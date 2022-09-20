@@ -16,7 +16,7 @@ namespace PresentationLayerPL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrderRefundFrm());
+            Application.Run(new MainFrm());
         }
     }
 }

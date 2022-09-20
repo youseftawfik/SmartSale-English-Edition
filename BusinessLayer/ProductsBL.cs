@@ -17,9 +17,6 @@ namespace BusinessLayer
         public string Barcode { get; set; }
         public byte[] Image { get; set; }
         public int Alert { get; set; }
-        public decimal Avaliable { get; set; }
-        public int StoreID { get; set; }
-        public string StoreName { get; set; }
         public decimal Stock { get; set; }
     }
 }
